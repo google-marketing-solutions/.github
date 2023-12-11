@@ -1,0 +1,9 @@
+reviews:
+  - name: Python-Readability-Review
+    patterns:
+      - *.py
+    review_team: @google-marketing-solutions/gps-readability-python-approvers
+  - name: Sql-Readability-Review
+    patterns:
+      - *.sql
+    review_team: @google-marketing-solutions/gps-readability-sql-approvers
