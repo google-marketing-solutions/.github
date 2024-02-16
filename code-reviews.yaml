@@ -1,9 +1,21 @@
 reviews:
+  - name: Java-Readability-Review
+    patterns:
+      - '.*\.[jJ][aA][vV][aA]$'
+    review_team: '@google-marketing-solutions/gps-readability-java-approvers'
+  - name: JavaScript-Readability-Review
+    patterns:
+      - '.*\.[jJ][sS]$'
+    review_team: '@google-marketing-solutions/gps-readability-javascript-approvers'
   - name: Python-Readability-Review
     patterns:
-      - '.*\.py'
+      - '.*\.[pP][yY]$'
     review_team: '@google-marketing-solutions/gps-readability-python-approvers'
   - name: Sql-Readability-Review
     patterns:
-      - '.*\.sql'
+      - '.*\.[sS][qQ][lL]$'
     review_team: '@google-marketing-solutions/gps-readability-sql-approvers'
+  - name: TypeScript-Readability-Review
+    patterns:
+      - '.*\.[tT][sS]$'
+    review_team: '@google-marketing-solutions/gps-readability-typescript-approvers'
