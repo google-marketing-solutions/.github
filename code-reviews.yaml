@@ -1,4 +1,12 @@
 reviews:
+  - name: Java-Readability-Review
+    patterns:
+      - '.*\.java'
+    review_team: '@google-marketing-solutions/gps-readability-java-approvers'
+  - name: JavaScript-Readability-Review
+    patterns:
+      - '.*\.js'
+    review_team: '@google-marketing-solutions/gps-readability-javascript-approvers'
   - name: Python-Readability-Review
     patterns:
       - '.*\.py'
@@ -7,3 +15,7 @@ reviews:
     patterns:
       - '.*\.sql'
     review_team: '@google-marketing-solutions/gps-readability-sql-approvers'
+  - name: TypeScript-Readability-Review
+    patterns:
+      - '.*\.ts'
+    review_team: '@google-marketing-solutions/gps-readability-typescript-approvers'
