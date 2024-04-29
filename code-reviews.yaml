@@ -5,7 +5,7 @@ reviews:
     review_team: '@google-marketing-solutions/gps-readability-java-approvers'
   - name: JavaScript-Readability-Review
     patterns:
-      - '.*\.[jJ][sS]$'
+      - '.*\.([jJ][sS]|[gG][sS])$'
     review_team: '@google-marketing-solutions/gps-readability-javascript-approvers'
   - name: Python-Readability-Review
     patterns:
